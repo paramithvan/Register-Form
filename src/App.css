@@ -1,0 +1,74 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #80b3ff; /* Change to the blue color you want */
+  color: black; /* Text color on the blue background */
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  font-weight: 200;
+  display: block;
+  justify-content: left;
+  margin-left: 0.5rem;
+}
+
+input {
+  min-width: 0%;
+  padding: 10px;
+  margin: 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.CheckBox {
+  font-size: 13px;
+  justify-content: left;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #687eff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #de8f5f;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
